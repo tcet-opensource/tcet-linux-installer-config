@@ -45,4 +45,4 @@ It contains the following folders and files.
 
 ### Important links
 
-- [tCET-linux-pkgbuild](https://github.com/tcet-opensource/tcet-linux-pkgbuild/tree/main/installer)
+- [tcet-linux-pkgbuild](https://github.com/tcet-opensource/tcet-linux-pkgbuild/tree/main/installer)
