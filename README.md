@@ -42,3 +42,7 @@ It contains the following folders and files.
   10. **welcome.conf** : This module is used to handle the welcome page during the installation process.
 
 - **settings.conf** : This configuration file is for Calamares, an independent and distro-agnostic system installer for Linux distributions.
+
+### Important links
+
+- [tCET-linux-pkgbuild](https://github.com/tcet-opensource/tcet-linux-pkgbuild/tree/main/installer)
