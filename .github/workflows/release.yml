@@ -22,7 +22,7 @@ jobs:
           touch tcet-linux-installer-config.tar.gz
           tar -czf tcet-linux-installer-config.tar.gz --exclude=tcet-linux-installer-config.tar.gz .
           touch checksum
-          sha256sum Owner avatar tcet-linux-installer-config.tar.gz > checksum
+          sha256sum tcet-linux-installer-config.tar.gz > checksum
           
       - name: Delete Previous Latest release
         uses: dev-drprasad/delete-tag-and-release@v1.0
