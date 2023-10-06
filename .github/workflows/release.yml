@@ -19,10 +19,15 @@ jobs:
 
       - name: Building TCET Linux Welcome Tar file
         run: |
-          touch tcet-linux-installer-config.tar.gz
-          tar -czf tcet-linux-installer-config.tar.gz --exclude=tcet-linux-installer-config.tar.gz .
+          ls -la
+          cd ..
+          ls -la
+          tar -czf tcet-linux-installer-config.tar.gz tcet-linux-installer-config/
           touch checksum
           sha256sum tcet-linux-installer-config.tar.gz > checksum
+          mv checksum tcet-linux-installer-config/
+          mv tcet-linux-installer-config.tar.gz tcet-linux-installer-config/
+          ls -la
           
       - name: Delete Previous Latest release
         uses: dev-drprasad/delete-tag-and-release@v1.0
